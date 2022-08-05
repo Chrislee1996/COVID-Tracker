@@ -17,7 +17,7 @@ const Frontpage = () => {
     const api = await fetch(`https://api.covid19api.com/summary`)
     const data = await api.json()
     setSummary(data)
-    console.log(data)
+    console.log(data,'data')
   }
 
   return (
